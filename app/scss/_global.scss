@@ -1,0 +1,164 @@
+html,
+body {
+   height: 100%;
+}
+
+body {
+   font-family: "IBM Plex Sans", sans-serif;
+   &.lock {
+      overflow: hidden;
+   }
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+   max-width: 1430px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.main {
+   flex: 1 0 auto;
+}
+.footer {
+   flex: 0 0 auto;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.title {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 50px;
+   color: #0e0a19;
+   position: relative;
+   &::after {
+      content: "";
+      background: url(../images/breket-big.svg) no-repeat center center;
+      width: 59px;
+      height: 30px;
+      position: absolute;
+      right: -11px;
+      bottom: 2px;
+   }
+}
+.btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 263px;
+   height: 76px;
+
+   background-color: #312f2f;
+   border: none;
+
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 21px;
+   letter-spacing: 0.02em;
+   color: #ffffff;
+
+   position: relative;
+   transition: all 0.5;
+
+   &::after {
+      content: "";
+      width: 260px;
+      height: 76px;
+      position: absolute;
+      bottom: 7px;
+      left: 10px;
+      border: 1px solid #312f2f;
+      z-index: -1;
+   }
+
+   &:hover,
+   &:focus {
+      background-color: #ff3b3d;
+   }
+   &:active {
+      background-color: #312f2f;
+      transform: translate(7px, -7px);
+   }
+}
+.btn:active.btn::after {
+   border: none;
+}
+.form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3, 112px);
+   gap: 21px 29px;
+   &__label {
+      display: block;
+      margin-bottom: 21px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 15px;
+      color: #c4c4c4;
+      &--file {
+         display: flex;
+         align-items: center;
+         width: 270px;
+         height: 76px;
+         margin-top: 35px;
+         background-color: #ff3b3d;
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 15px;
+         color: #ffffff;
+         .form__arrow{
+            width: 68px;
+            height: 76px;
+            margin-right: 24px;
+            background: #0E0A19 url(../images/arrow.svg) no-repeat 50%;
+         }
+      }
+   }
+   .label--bright{
+      color: #0E0A19
+   }
+   &__input {
+      width: 270px;
+      height: 75px;
+      padding-left: 26px;
+      border: 1px solid #e8dfe0;
+      &--red {
+         border-color: #ff3b3d;
+      }
+      &--red::placeholder {
+         color: #ff3b3d;
+      }
+   }
+   &__button{
+      margin-top: 25px;
+   }
+}
+
+.check__box {
+   position: absolute;
+   margin-left: -24px;
+   width: 10px;
+   height: 10px;
+   box-shadow: 0 0 0 0.1em #ff3b3d;
+}
+.label__checkbox {
+   display: block;
+   padding-left: 24px;
+   padding-top: 27px;
+   font-size: 12px;
+   line-height: 12px;
+   color: #c4c4c4;
+}
+.check__input:focus + .check__box {
+   background-color: #ff3b3d;
+}
+.check__input:checked + .check__box {
+   background: #ff3b3d url(../images/check.svg) no-repeat 50%;
+}
+

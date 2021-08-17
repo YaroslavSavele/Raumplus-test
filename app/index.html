@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Raumplus</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <nav class="menu">
+               <ul class="menu__list">
+                  <li class="menu__list-item">
+                     <a class="menu__list-link" href="#!">Дизайн.</a>
+                  </li>
+                  <li class="menu__list-item">
+                     <a class="menu__list-link" href="#!">Отделка.</a>
+                  </li>
+                  <li class="menu__list-item">
+                     <a class="menu__list-link" href="#!">Мебель</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__right">
+               <div class="header__right-adress">
+                  г. Челябинск, ул. Сони Кривой, д. 83
+               </div>
+               <div class="header__right-tel">
+                  <p>Позвонить нам:</p>
+                  <span>+7 (351) 235-65-94</span>
+               </div>
+               <div class="header__right-burger">
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="wrapper">
+      <main class="main">
+         <section class="hero-slider">
+            <div class="hero-slider__images">
+               <img class="hero-slider__images-img" src="images/cupboard.png" alt="cupboard">
+            </div>
+            <div class="hero-slider__content">
+               <h2 class="hero-slider__content-title title">
+                  Жизнь полна идей
+               </h2>
+               <p class="hero-slider__content-text hero-slider__content-text--first">
+                  как
+               </p>
+               <p class="hero-slider__content-text hero-slider__content-text--last">
+                  и наша мебель
+               </p>
+               <a class="hero-slider__content-btn btn popup-link" href="#!">
+                  ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ
+               </a>
+            </div>
+            <div class="hero-slider__buttons">
+               <button class="hero-slider__buttons-btn"></button>
+               <button class="hero-slider__buttons-btn hero-slider__buttons-btn--active"></button>
+               <button class="hero-slider__buttons-btn"></button>
+               <button class="hero-slider__buttons-btn"></button>
+            </div>
+         </section>
+         <div class="container">
+            <section class="calculate">
+               <h2 class="calculate__title title">
+                  Расcчитаем стоимость за 30 минут
+               </h2>
+               <form class="calculate__form form" action="">
+                  <div class="form__item">
+                     <label class="form__label label" for="">
+                        Введите ваше имя
+                     </label>
+                     <input class="form__input" type="text">
+                  </div>
+                  <div class="form__item">
+                     <label class="form__label form__label--email" for="">
+                        Введите ваш e mail
+                     </label>
+                     <input class="form__input form__input--red" type="email" placeholder="da@ribbla.com">
+                  </div>
+                  <div class="form__item">
+                     <label class="form__label label" for="">
+                        Введите ваш номер телефона
+                     </label>
+                     <input class="form__input" type="tel">
+                  </div>
+                  <div class="form__item">
+
+                     <label class="form__label--file" for="file"><input class="form__input visually-hidden" type="file"
+                           id="file">
+                        <span class="form__arrow"></span> ПРИКРЕПИТЬ ФАЙЛЫ</label>
+                  </div>
+                  <div class="form__item">
+                     <label class="label__checkbox" for="checkbox">
+                        <input class="calculate__checkbox check__input visually-hidden" type="checkbox" id='checkbox'
+                           checked>
+                        <span class="check__box"></span>
+                        Я согласен с условиями обработки<br> и исползования персональных данных
+                     </label>
+                  </div>
+                  <button class="form__button btn">ПОЛУЧИТЬ РАСЧЕТ</button>
+               </form>
+               <div class="calculate__content">
+                  <img class="calculate__content-img" src="images/Paper.png" alt="paper">
+
+                  <h3 class="calculate__content-title">
+                     Вы получите примерный расчет
+                  </h3>
+                  <p class="calculate__content-text">
+                     Оператор перезвонит вам для более подробной консультации.
+                  </p>
+                  <p class="calculate__content-text">
+                     Мы не рассылаем спам, только персональные предложения
+                  </p>
+               </div>
+            </section>
+
+            <section class="slider">
+               <div class="slider__header">
+                  <h2 class="slider__title title">
+                     Посмотрите на наши проекты
+                  </h2>
+               </div>
+               <div class="slider__track">
+                  <div class="slider__line">
+                     <a class="slider__item" href="#!">
+                        <img class="slider__item-img" src="images/slider-img1.jpg" alt="cabinet">
+                        <h3 class="slider__item-title">
+                           Кабинеты<br> и библиотеки
+                        </h3>
+                        <p class="slider__item-disclaimer">
+                           Для жилых и общественных помещений
+                        </p>
+                     </a>
+                     <a class="slider__item" href="#!">
+                        <img class="slider__item-img" src="images/slider-img3.jpg" alt="kithen">
+                        <h3 class="slider__item-title">
+                           Мебель<br> для кухни
+                        </h3>
+                        <p class="slider__item-disclaimer">
+                           Современные комплектующие
+                        </p>
+                     </a>
+                     <a class="slider__item" href="#!">
+                        <img class="slider__item-img" src="images/slider-img3.jpg" alt="childrens room">
+                        <h3 class="slider__item-title">
+                           Детские и подростковые комнаты
+                        </h3>
+                        <p class="slider__item-disclaimer">
+                           Из экологически чистых материалов
+                        </p>
+                     </a>
+                     <a class="slider__item" href="#!">
+                        <img class="slider__item-img" src="images/slider-img1.jpg" alt="cabinet">
+                        <h3 class="slider__item-title">
+                           Кабинеты<br> и библиотеки
+                        </h3>
+                        <p class="slider__item-disclaimer">
+                           Для жилых и общественных помещений
+                        </p>
+                     </a>
+                     <a class="slider__item" href="#!">
+                        <img class="slider__item-img" src="images/slider-img3.jpg" alt="kithen">
+                        <h3 class="slider__item-title">
+                           Мебель<br> для кухни
+                        </h3>
+                        <p class="slider__item-disclaimer">
+                           Современные комплектующие
+                        </p>
+                     </a>
+                     <a class="slider__item" href="#!">
+                        <img class="slider__item-img" src="images/slider-img3.jpg" alt="childrens room">
+                        <h3 class="slider__item-title">
+                           Детские и подростковые комнаты
+                        </h3>
+                        <p class="slider__item-disclaimer">
+                           Из экологически чистых материалов
+                        </p>
+                     </a>
+                  </div>
+               </div>
+            </section>
+
+            <section class="features">
+               <h2 class="features__title title">Почему выбирают нас</h2>
+               <img class="features__img features__img-2" src="images/features-img2.jpg" alt="">
+               <div class="features__text features__text-1">
+                  <h3 class="features__text-title">
+                     Raumplus <br>единственный <br>бренд салон <br>Челябинска
+                  </h3>
+                  <p class="features__text-description">
+                     Это гарантия качества,<br> а главное — подлинности <br>Вашего изделия
+                  </p>
+               </div>
+               <div class="features__feature features__feature-1">
+                  <span>14</span>
+                  <img src="images/breket-big.svg" alt="">
+                  <p>
+                     лет опыта
+                  </p>
+               </div>
+               <img class="features__img features__img-1" src="images/features-img1.jpg" alt="">
+               <div class="features__text features__text-2">
+                  <h3 class="features__text-title">
+                     У нас <br>есть <br>собственное <br>производство
+                  </h3>
+                  <p class="features__text-description">
+                     Наше производство <br>с современным оборудованием <br>находится в городе Челябинске.
+                  </p>
+               </div>
+               <img class="features__img features__img-4" src="images/features-img4.jpg" alt="">
+               <div class="features__text features__text-3">
+                  <h3 class="features__text-title">
+                     С вами <br>будет <br>работать <br>Команда профессионалов
+                  </h3>
+                  <p class="features__text-description">
+                     Все, кто работают над изготовлением Вашей мебели — дизайнер- консультант, мастер, технолог -
+                     профессионалы в своем деле
+                  </p>
+               </div>
+               <img class="features__img features__img-3" src="images/features-img3.jpg" alt="">
+               <div class="features__feature features__feature-2">
+                  <span>-%</span>
+                  <img src="images/breket-big.svg" alt="">
+                  <p>
+                     не экономим<br> на деталях
+                  </p>
+               </div>
+            </section>
+
+            <section class="quality">
+               <h2 class="quality__title title">
+                  Качество проверенное временем
+               </h2>
+               <div class="quality__item">
+                  <div class="quality__item-title">
+                     Как заказать
+                  </div>
+                  <a class="quality__item-text" href="#!">
+                     Заказать нашу мебель очень просто, читайте подробно <br>в этом разделе
+                  </a>
+                  <img class="quality__item-img" src="images/quality-img-1.jpg" alt="laptop">
+               </div>
+               <div class="quality__item quality__item--big quality__item--actions">
+                  <div class="quality__item-title">
+                     Акции <br>и скидки
+                  </div>
+                  <a class="quality__item-text" href="#!">
+                     Мы любим радовать своих клиентов выгодными предложениями
+                  </a>
+                  <img class="quality__item-img" src="images/quality-img-2.jpg" alt="chair">
+               </div>
+               <div class="quality__item">
+                  <div class="quality__item-title quality__item-title--indent">
+                     Отзывы
+                  </div>
+                  <a class="quality__item-text" href="#!">
+                     Заказать нашу мебель очень просто, читайте подробно в этом разделе
+                  </a>
+                  <img class="quality__item-img quality__item-img--envelope" src="images/quality-img-3.jpg"
+                     alt="envelope">
+               </div>
+               <div class="quality__item quality__item--big">
+                  <div class="quality__item-title quality__item-title--indent">
+                     Статьи
+                  </div>
+                  <a class="quality__item-text" href="#!">
+                     Интересная информация о новостях в мире мебели и нашей компании
+                  </a>
+                  <img class="quality__item-img quality__item-img--tablet" src="images/quality-img-4.jpg" alt="tablet">
+               </div>
+               <div class="quality__last-item">
+                  <div class="quality__last-item-title">
+                     Мебель призвана украшать интерьер
+                  </div>
+                  <p class="quality__last-item-text">
+                     Делать дом функциональным, <br>а проживание в нем - комфортным.
+                  </p>
+                  <p class="quality__last-item-text">
+                     Она должна радовать Вас долгие годы,а не несколько недель или месяцев. Поэтому выбирайте лучшее для
+                     себя и для своего дома!
+                  </p>
+                  <a class="quality__last-item-btn btn popup-link" href="#!">
+                     ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ
+                  </a>
+               </div>
+            </section>
+         </div>
+
+         <section class="tour">
+            <div class="tour__image">
+               <img class="tour__image-img" src="images/worktable.png" alt="worktable">
+            </div>
+            <div class="tour__content">
+               <h2 class="tour__content-title title">
+                  Приходите в гости онлайн
+               </h2>
+               <p class="tour__content-text">
+                  лучше один раз увидеть
+               </p>
+               <a class="tour__content-btn btn" href="#!">3D ТУР</a>
+            </div>
+         </section>
+
+         <div class="container">
+            <section class="constructor">
+               <div class="constructor__item item-1">
+                  <div class="item-1__top">
+                     <h3 class="item-1__top-title">
+                        Быстро
+                     </h3>
+                     <div class="item-1__top-text">
+                        Все изменения <br>в калькуляторе пересчитываются в режиме онлайн
+                     </div>
+                  </div>
+                  <div class="item-1__bottom">
+                     <h3 class="item-1__bottom-title">
+                        Просто
+                     </h3>
+                     <div class="item-1__bottom-text">
+                        Вам нужно только ввести данные своего проекта, конструктор сам все посчитает
+                     </div>
+                  </div>
+               </div>
+               <div class="constructor__item item-2">
+                  <div class="item-2__top">
+                     <h3 class="item-2__top-title">
+                        Наполнение
+                     </h3>
+                     <div class="item-2__top-text">
+                        Масса вариантов<br> для вашей фантазии,<br> в нашем конструкторе мебели
+                     </div>
+                  </div>
+                  <div class="item-2__bottom">
+                     <img class="item-2__bottom-img" src="images/constructor.svg" alt="">
+                  </div>
+               </div>
+               <div class="constructor__item item-3">
+                  <h2 class="item-3__title title">
+                     Посчитай свою идею
+                  </h2>
+                  <p class="item-3__text">
+                     Каждый проект требует индивидуального подхода создайте свой в нашем конструкторе
+                  </p>
+                  <a class="item-3__btn btn" href="#!">КОНСТРУКТОР</a>
+               </div>
+            </section>
+         </div>
+
+
+         <section class="calculate-free">
+            <div class="calculate-free__content">
+               <h2 class="calculate-free__title title">
+                  Закажи бесплатный расчет
+               </h2>
+               <p class="calculate-free__text">
+                  и получи скидку
+               </p>
+               <img class="calculate-free__img" src="images/five-percent.svg" alt="five-percent">
+            </div>
+            <div class="calculate-free__section-form">
+               <h3 class="section-form__title">
+                  Заполните форму и наши менеджеры сделают вам расчет и перезвонят
+               </h3>
+               <form class="calculate-free__form form" action="">
+                  <div class="form__item">
+                     <label class="form__label label label--bright" for="">
+                        Введите ваше имя
+                     </label>
+                     <input class="form__input" type="text">
+                  </div>
+                  <div class="form__item">
+                     <label class="form__label form__label--email" for="">
+                        Введите ваш e mail
+                     </label>
+                     <input class="form__input form__input--red" type="email">
+                  </div>
+                  <div class="form__item">
+                     <label class="form__label label label--bright" for="">
+                        Введите ваш номер телефона
+                     </label>
+                     <input class="form__input" type="tel">
+                  </div>
+                  <div class="form__item">
+
+                     <label class="form__label--file label--bright" for="file"><input
+                           class="form__input visually-hidden" type="file">
+                        <span class="form__arrow"></span> ПРИКРЕПИТЬ ФАЙЛЫ</label>
+                  </div>
+                  <div class="form__item">
+                     <label class="label__checkbox  label--bright">
+                        <input class="calculate-free__checkbox check__input visually-hidden" type="checkbox" checked>
+                        <span class="check__box"></span>
+                        Я согласен с условиями обработки<br> и исползования персональных данных
+                     </label>
+                  </div>
+                  <button class="form__button form__button--free btn">ПОЛУЧИТЬ РАСЧЕТ</button>
+               </form>
+            </div>
+         </section>
+
+
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+               <div class="footer__about footer__column">
+                  <h3 class="footer__title">
+                     О компании
+                  </h3>
+                  <ul class="footer__about-list">
+                     <li class="footer__item">
+                        <a href="#!" class="footer__about-link footer__link">
+                           О нас
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__about-link footer__link">
+                           Raumplus
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__about-link footer__link">
+                           Политика в области качества
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__about-link footer__link">
+                           Отзывы
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer__disign footer__column">
+                  <h3 class="footer__title">
+                     Дизайн, ремонт, отделка
+                  </h3>
+                  <ul class="footer__disign-list">
+                     <li class="footer__item">
+                        <a href="#!" class="footer__disign-link footer__link">
+                           Дизайн интерьера
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__disign-link footer__link">
+                           Трехмерная визуализация
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__about-link footer__link">
+                           Авторский надзор
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__disign-link footer__link">
+                           Ремонт под ключ
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer__clients footer__column">
+                  <h3 class="footer__title">
+                     Клиентам
+                  </h3>
+                  <ul class="footer__clients-list">
+                     <li class="footer__item">
+                        <a href="#!" class="footer__clients-link footer__link">
+                           Акции и скидки
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__clients-link footer__link">
+                           Как заказать
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__clients-link footer__link">
+                           Способ оплаты
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__clients-link footer__link">
+                           Доставка и монтаж
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__clients-link footer__link">
+                           Видео
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__clients-link footer__link">
+                           Политика обработки персональных данных
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer__portfolio footer__column">
+                  <h3 class="footer__title">
+                     Портфолио
+                  </h3>
+                  <ul class="footer__portfolio-list">
+                     <li class="footer__item">
+                        <a href="#!" class="footer__portfolio-link footer__link">
+                           Шкафы - купе
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__portfolio-link footer__link">
+                           Гардеробные комнаты
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__portfolio-link footer__link">
+                           Межкомнатные двери<br> и перегородки
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__portfolio-link footer__link">
+                           Кабинеты и библиотеки
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__portfolio-link footer__link">
+                           Мебель для кухни
+                        </a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#!" class="footer__portfolio-link footer__link">
+                           Детские и подростковые комнаты
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer__contacts footer__column">
+                  <h3 class="footer__title">
+                     Дизайнерам и архитекторам
+                  </h3>
+                  <h3 class="footer__title">
+                     Контакты
+                  </h3>
+                  <ul class="footer__contacts-list">
+                     <li class="footer__contacts-item footer__item">
+                        г. Челябинск,<br> ул. Сони Кривой, д. 83
+                     </li>
+                     <li class="footer__contacts-item footer__item">
+                        +7 (351) 235-65-94
+                     </li>
+                     <li class="footer__contacts-item footer__item">
+                        <a href="mailo:alfakomfort@mail.ru" class="footer__contacts-link footer__link">
+                           alfakomfort@mail.ru
+                        </a>
+                     </li>
+                     <li class="footer__contacts-item footer__item">
+                        <a href="#!" class="footer__contacts-link footer__link">
+                           Вконтакте
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer__motto footer__column">
+                  <p>Дизайн.</p>
+                  <p>Отделка.</p>
+                  <p>Мебель </p>
+                  <img class="footer__motto-img" src="images/brecet.svg" alt="brecet">
+               </div>
+            </div>
+            <div class="footer__bottom">
+               <p class="footer__bottom-copyrait">
+                  © 2019 Бренд-салон raumplus, производственная компания D.O.M.
+               </p>
+               <img class="footer__bottom-logo" src="images/Ribbla_logo_color_png.png" alt="ribbla">
+            </div>
+            <div class="footer__empty"></div>
+         </div>
+      </footer>
+   </div>
+   <div class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="index.html" class="popup__close">X</a>
+            <h2 class="popup__title title">
+               Заполните форму
+            </h2>
+            <form class="popup__form form" action="" name="popup">
+               <div class="form__item">
+                  <label class="form__label label label--bright" for="">
+                     Введите ваше имя
+                  </label>
+                  <input class="form__input" type="text">
+               </div>
+               <div class="form__item">
+                  <label class="form__label form__label--email label--bright">
+                     Введите ваш e mail
+                  </label>
+                  <input class="form__input" type="email">
+               </div>
+               <div class="form__item">
+                  <label class="form__label label label--bright" for="">
+                     Введите ваш номер телефона
+                  </label>
+                  <input class="form__input" type="tel">
+               </div>
+               <div class="form__item">
+
+                  <label class="form__label--file" for="file"><input class="form__input visually-hidden" type="file"
+                        id="file">
+                     <span class="form__arrow"></span> ПРИКРЕПИТЬ ФАЙЛЫ</label>
+               </div>
+               <div class="form__item">
+                  <label class="label__checkbox label--bright">
+                     <input class="calculate__checkbox check__input visually-hidden" type="checkbox"
+                        checked>
+                     <span class="check__box"></span>
+                     Я согласен с условиями обработки<br> и исползования персональных данных
+                  </label>
+               </div>
+               <button class="form__button btn">ОТПРАВИТЬ</button>
+            </form>
+         </div>
+      </div>
+   </div>
+
+
+
+
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
